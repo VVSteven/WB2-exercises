@@ -4,7 +4,7 @@
 let widthOfRectangle = 20;//width of rectangle
 let lengthOfRectangle = 15;//length of rectangle
 
-const areaOfRectangle = widthOfRectangle * lengthOfRectangle;
+const areaOfRectangle = widthOfRectangle * lengthOfRectangle;//multiplies Length and width
 
-console.log("The area of the rectangle is:" + areaOfRectangle);
+console.log("The area of the rectangle is:" + areaOfRectangle);//displays area of rectangle 
 
