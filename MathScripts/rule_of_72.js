@@ -1,12 +1,10 @@
-// Rule of 72
 
-let interestRate = .06;
-let savingAccount = 200;
-let interestRate2 = interestRate * 100; 
 
+const initialInvestmant = 100;
+const interestRate = 100;
 const ruleOf72 = 72;
-const yearsToDouble = ruleOf72 / interestRate;
 
-const t = savingAccount / interestRate;
+let yearsToDouble = ruleOf72 / interestRate;
+let doubledInvestment = initialInvestmant * 2;
 
-console.log("At a "+ interestRate2 +" % interest rate, your savings account will be worth " + t +" in " + yearsToDouble +" years")
+console.log("At a "+ interestRate +"% interest rate, your savings account will be worth $" + doubledInvestment.toFixed(2) +" in " + yearsToDouble.toFixed(2) +" years")
