@@ -1,7 +1,7 @@
 
 
-const initialInvestmant = 100;
-const interestRate = 100;
+const initialInvestmant = 1323;
+const interestRate = 4;
 const ruleOf72 = 72;
 
 let yearsToDouble = ruleOf72 / interestRate;

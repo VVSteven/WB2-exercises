@@ -1,22 +1,14 @@
 //  Fahrenheit to Celsius 
 // formula to convert fahrenheit to celsius; (F-32) 5/9 
 
-//takes away 32 from fahrenheit
-let minuse32 = 100 - 32;
+const fahrenheit = 300;
 
-//outputs away 32 from fahrenheit
-console.log( minuse32)
-
-//multiplies previous answer by 5
-let times5 = minuse32 * 5;
+//calculates celsius
+let minus32 = fahrenheit - 32;
+let times5 = minus32 * 5;
+let celsius = times5 / 9 ;
 
 //outputs answer
-console.log( times5)
-
-//divides previous answer by 9
-let divide9 = times5 / 9 ;
-
-//outputs answer
-console.log( divide9.toFixed(2))
+console.log(fahrenheit + " Fahrenheit is the same as " + celsius.toFixed(5) +  " celsius.")
 
 //Celcius to Fahrenheit
