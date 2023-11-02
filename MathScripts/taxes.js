@@ -1,6 +1,6 @@
-const monthlySalary = 2400;
+const monthlySalary = 2423.46;
 const fedralTaxes = .23;
-
+ 
 let withheld = monthlySalary * fedralTaxes;
 
-console.log("$" + withheld + " is withheld for taxes.")
+console.log("$" + withheld.toFixed(2) + " is withheld for taxes.")
